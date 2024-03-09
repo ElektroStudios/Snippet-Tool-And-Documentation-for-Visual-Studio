@@ -27,7 +27,7 @@ visualstudio
 
 ![Menu commands](/Images/Menu%20commands.png)
 
-![Sample Xml](/Images/Sample%20C#%20Documentation%20Compilation.png)
+![Sample Xml](/Images/Sample%20CSharp%20Documentation%20Compilation.png)
 
 ![Menu commands](/Images/VB_code.gif)
 
@@ -59,7 +59,7 @@ visualstudio
 
 Download the latest release by clicking [here](https://github.com/ElektroStudios/Snippet-Tool-And-Documentation-for-Visual-Studio/releases/latest).
 
-You can also download it from Visual Studio Market Place by clicking [here](xxxxxxxxxxxxxxxxxxxxxxxxxx).
+You can also download it from Visual Studio Market Place by clicking [here](https://marketplace.visualstudio.com/items?itemName=elektroHacker.SnippetToolVS2022).
 
 ## 🔄 Change Log
 
