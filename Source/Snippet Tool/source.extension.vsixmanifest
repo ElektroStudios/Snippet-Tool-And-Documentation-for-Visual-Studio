@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="SnippetTool.2022FFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF" Version="1.5" Language="en-US" Publisher="ElektroStudios" />
+        <DisplayName>Snippet Tool (VS2022)</DisplayName>
+        <Description xml:space="preserve">XML Documentation and Snippet Generation Tool.</Description>
+        <MoreInfo>https://github.com/ElektroStudios/Snippet-Tool-And-Documentation-for-Visual-Studio</MoreInfo>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://github.com/ElektroStudios/Snippet-Tool-And-Documentation-for-Visual-Studio?tab=readme-ov-file#-getting-started</GettingStartedGuide>
+        <Icon>Resources\Package.ico</Icon>
+        <PreviewImage>Resources\Package.ico</PreviewImage>
+        <Tags>snippet, documentation, tool, vbnet, csharp, extension, xml, help, docs, code</Tags>
+    </Metadata>
+    <Installation InstalledByMsi="false" AllUsers="true">
+        <InstallationTarget Version="[17.0,)" Id="Microsoft.VisualStudio.Community">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,)" Id="Microsoft.VisualStudio.Enterprise">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.8,)" />
+        <Dependency Id="Microsoft.VisualStudio.MPF.17.0" DisplayName="Visual Studio MPF 17.0" d:Source="Installed" Version="[17.0,18.0)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite DisplayName="Visual Studio core editor" Version="[17.0,)" Id="Microsoft.VisualStudio.Component.CoreEditor" />
+    </Prerequisites>
+</PackageManifest>
