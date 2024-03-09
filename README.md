@@ -1,8 +1,4 @@
 <!-- Common Project Tags:
-command-line 
-console-applications 
-desktop-app 
-desktop-application 
 dotnet 
 dotnet-core 
 netcore 
@@ -12,66 +8,70 @@ tool
 tools 
 vbnet 
 visualstudio 
-windows 
-windows-app 
-windows-application 
-windows-applications 
-windows-forms 
-winforms 
  -->
 
-# PROJECT NAME
+# Snippet Tool for Visual Studio 2022
 
-### PROJECT DESCRIPTION
+### XML Documentation and Snippet Generation Tool.
 
 ------------------
 
-## 👋 Introduction
-
-INTRODUCTION TEXT
-
 ## 👌 Features
 
-FEATURES TEXT
+ - Automate .snippet file creation from selected text.
+ - Automate the insertion of common XML documentation tags.
+ - Compatible with C-Sharp and VB.NET syntax.
+ - Menu commands can be invoked using shortcut hotkeys, for example by pressing CTRL+E+R, the selected text will be wrapped into the cref tag (<see cref="value"/>).
 
 ## 🖼️ Screenshots
 
-![screenshot](/Images/screenshot.png)
+![Menu commands](/Images/Menu%20commands.png)
 
-## 🎦 Videos
+![Sample Xml](/Images/Sample%20C#%20Documentation%20Compilation.png)
 
-<!-- Download a recorded video by clicking [here](/Video/video.mp4) -->
+![Menu commands](/Images/VB_code.gif)
 
-<!-- See a recorded video by clicking on the following button:
-[![PROJECT_NAME DEMO VIDEO](Images/demo_video.jpg)](https://www.youtube.com/watch?v=XXXXXXXXX)  -->
+![Menu commands](/Images/VB_codeexample.gif)
+
+![Menu commands](/Images/VB_Collapse.gif)
+
+![Menu commands](/Images/VB_cref.gif)
+
+![Menu commands](/Images/VB_Delete.gif)
+
+![Menu commands](/Images/VB_Expand.gif)
+
+![Menu commands](/Images/VB_href.gif)
+
+![Menu commands](/Images/VB_href_alter.gif)
+
+![Menu commands](/Images/VB_langword.gif)
+
+![Menu commands](/Images/VB_paramref.gif)
+
+![Menu commands](/Images/VB_snippet.gif)
 
 ## 📝 Requirements
 
-- Microsoft Windows OS.
+- Visual Studio 2022.
 
 ## 🤖 Getting Started
 
-Download the latest compilation by clicking [here](https://github.com/ElektroStudios/PROJECT_NAME/releases/latest).
+Download the latest release by clicking [here](https://github.com/ElektroStudios/Snippet-Tool-And-Documentation-for-Visual-Studio/releases/latest).
+
+You can also download it from Visual Studio Market Place by clicking [here](xxxxxxxxxxxxxxxxxxxxxxxxxx).
 
 ## 🔄 Change Log
 
 Explore the complete list of changes, bug fixes, and improvements across different releases by clicking [here](/Docs/CHANGELOG.md).
 
-## 🏆 Credits
-
-This work relies on the following resources: 
-
- - [.NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
-
 ## ⚠️ Disclaimer:
 
 This Work (the repository and the content provided in) is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Work or the use or other dealings in the Work.
 
-This Work has no affiliation, approval or endorsement by the author(s) of the third-party libraries used by this Work.
-
 ## 💪 Contributing
 
-Your contribution is highly appreciated!. If you have any ideas, suggestions, or encounter issues, feel free to open an issue by clicking [here](https://github.com/ElektroStudios/PROJECT_NAME/issues/new/choose). 
+Your contribution is highly appreciated!. If you have any ideas, suggestions, or encounter issues, feel free to open an issue by clicking [here](https://github.com/ElektroStudios/Snippet-Tool-And-Documentation-for-Visual-Studio/issues/new/choose). 
 
 Your input helps make this Work better for everyone. Thank you for your support! 🚀
 
