@@ -12,7 +12,9 @@ visualstudio
 
 # Snippet Tool for Visual Studio 2022
 
-### XML Documentation and Snippet Generation Tool.
+### XML Documentation and Code Snippet Toolkit for Visual Studio.
+
+> ⚠️ This repository is archived and no longer maintained.
 
 Looking for the Visual Studio 2026 version? Find it [here](https://github.com/ElektroStudios/XML-Doc-and-Snippet-Tool-for-VS2026).
 
