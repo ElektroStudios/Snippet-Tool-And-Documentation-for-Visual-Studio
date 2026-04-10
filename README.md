@@ -14,6 +14,8 @@ visualstudio
 
 ### XML Documentation and Snippet Generation Tool.
 
+Looking for the Visual Studio 2026 version? Find it [here](https://github.com/ElektroStudios/XML-Doc-and-Snippet-Tool-for-VS2026).
+
 ------------------
 
 ## 👌 Features
