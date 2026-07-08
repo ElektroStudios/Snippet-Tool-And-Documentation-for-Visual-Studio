@@ -13,7 +13,7 @@ visualstudio
 <div align="center">
   <img src="/Images/App.ico" width="100" alt="Logo">
   
-  <h1>Snippet Tool for Visual Studio 2026</h1>
+  <h1>Snippet Tool for Visual Studio 2022</h1>
 
 ### A comprehensive XML Documentation and Code Snippet toolkit extension for Visual Studio.
 
